@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body {
+  height: 100vh;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+section {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="text"] {
+  min-width: 68px;
+  field-sizing: content;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 32px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 20px rgba(222, 221, 221, 0.6);
+}
+
+button:active {
+  background-color: rgba(255, 255, 255, 0.526);
+}
+
+.col-1, .col-2 {
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 12px;
+}
+
+.col-1 {
+  background-color: black;
+  color: white;
+}
+
+.col-2 {
+  background-color: white;
+}
+
+.card {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.1);
+
+}
